@@ -1,8 +1,6 @@
-# The roller coaster problem
+## The roller coaster problem
 
-## This problem is from Andrews’s Concurrent Programming [1], but he attributes it to J. S. Herman’s Master’s thesis.
-
-### Suppose there are n passenger threads and a car thread. The passengers repeatedly wait to take rides in the car, which can hold C passengers, where C < n. The car can go around the tracks only when it is full.
+#### Suppose there are n passenger threads and a car thread. The passengers repeatedly wait to take rides in the car, which can hold C passengers, where C < n. The car can go around the tracks only when it is full.
 
 #### Here are some additional details:
 
